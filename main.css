@@ -1,0 +1,76 @@
+html, body, div, a, h1, ul, li, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #e9dcbb;
+}
+
+ul#nav {
+    background-color: #ba832b;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li:first-child {
+  flex-grow: 2;
+  padding-left: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+#parent {
+   
+}
+
+#cardsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#card {
+    padding: 20px;
+    background-color: white;
+    margin: 50px 5px;
+    border: 2px solid  #ba832b;
+    width: 200px;
+    height: 265px;
+   display: flex;
+   justify-content: center;
+   flex-flow: row wrap;
+}
+
+h1 {
+    width: 200px;
+    justify-content: flex-start;
+}
+
+p {
+    padding-left: 20px;
+}
+
+#parent2 {
+    display: flex;
+    align-items: flex-end;
+}
+
+#infoContainer {
+    display: flex;
+}
+
+#card a {
+   background-color: #ba832b;
+   padding: 0 65px;
+   text-decoration: none;
+   color: white;
+}
